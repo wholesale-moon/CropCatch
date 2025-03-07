@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: WitchFish
+  m_EditorClassIdentifier: 
+  fishName: Witch Fish
+  basePrice: 180
+  minPrice: 150
+  maxPrice: 210
+  rarity: 2
+  isRareVersion: 0
+  maxFishingPoints: 400
+  fishingPointsModifier: 60
+  startFishingPoints: 60
+  startPointsModifier: 20
+  catchDrainRate: 20
+  drainRateModifier: 4
+  qteFrequency: 4
+  rngQTE: 1
+  qteModifier: 1
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 60
+  baseSize: 8
+  sizeModifier: 2
+  baseDifficulty: 12
+  minDifficulty: 10
+  maxDifficulty: 15
+  modelPrefab: {fileID: 6089015814016943340, guid: 9565a7375645bd846b860deeac476c84,
+    type: 3}
+  fishImage: {fileID: 21300000, guid: 80375a57d681e6e4aa0d5dce60e51c0a, type: 3}
+  pun: Caught me, my pretty.
+  location: Swamp, End

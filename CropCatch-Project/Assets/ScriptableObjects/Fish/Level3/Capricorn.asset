@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: Capricorn
+  m_EditorClassIdentifier: 
+  fishName: Capricorn
+  basePrice: 100
+  minPrice: 85
+  maxPrice: 120
+  rarity: 1
+  isRareVersion: 0
+  maxFishingPoints: 300
+  fishingPointsModifier: 30
+  startFishingPoints: 50
+  startPointsModifier: 10
+  catchDrainRate: 22
+  drainRateModifier: 2
+  qteFrequency: 6
+  rngQTE: 1
+  qteModifier: 1
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 50
+  baseSize: 14
+  sizeModifier: 3
+  baseDifficulty: 9
+  minDifficulty: 7
+  maxDifficulty: 13
+  modelPrefab: {fileID: 8717321846199253766, guid: 3e7c2f7f3d1763b4e88825374bee1f32,
+    type: 3}
+  fishImage: {fileID: 21300000, guid: 3661093afb4532645a962a228dbd1040, type: 3}
+  pun: Goat to meet you!
+  location: Space, 1/2

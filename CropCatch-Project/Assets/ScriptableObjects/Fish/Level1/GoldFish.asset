@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: GoldFish
+  m_EditorClassIdentifier: 
+  fishName: Gold Fish
+  basePrice: 30
+  minPrice: 25
+  maxPrice: 40
+  rarity: 0
+  isRareVersion: 0
+  maxFishingPoints: 200
+  fishingPointsModifier: 0
+  startFishingPoints: 30
+  startPointsModifier: 0
+  catchDrainRate: 12
+  drainRateModifier: 5
+  qteFrequency: 10
+  rngQTE: 0
+  qteModifier: 1
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 40
+  baseSize: 8
+  sizeModifier: 3
+  baseDifficulty: 5
+  minDifficulty: 3
+  maxDifficulty: 6
+  modelPrefab: {fileID: 3605283159960365817, guid: c32755a3caf7d86449ec6e075077e670,
+    type: 3}
+  fishImage: {fileID: 21300000, guid: f3d974d24a6d36f40802d5e736e0f3f3, type: 3}
+  pun: "I wonder if it has Mida\u2019s touch?"
+  location: Island

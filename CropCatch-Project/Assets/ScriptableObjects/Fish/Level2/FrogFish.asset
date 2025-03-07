@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: FrogFish
+  m_EditorClassIdentifier: 
+  fishName: Frog Fish
+  basePrice: 35
+  minPrice: 25
+  maxPrice: 45
+  rarity: 0
+  isRareVersion: 0
+  maxFishingPoints: 150
+  fishingPointsModifier: 30
+  startFishingPoints: 30
+  startPointsModifier: 5
+  catchDrainRate: 15
+  drainRateModifier: 5
+  qteFrequency: 4
+  rngQTE: 1
+  qteModifier: 1
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 40
+  baseSize: 4
+  sizeModifier: 1
+  baseDifficulty: 5
+  minDifficulty: 3
+  maxDifficulty: 7
+  modelPrefab: {fileID: 1418424211258230464, guid: e25a508743e5bf14fa160f6e8ec0befb,
+    type: 3}
+  fishImage: {fileID: 21300000, guid: 2c8ab402abf710341ad8aeba340a8533, type: 3}
+  pun: Looks to be very unhoppy.
+  location: Swamp, Corner

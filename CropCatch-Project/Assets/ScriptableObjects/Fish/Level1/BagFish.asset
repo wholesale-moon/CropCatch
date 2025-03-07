@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: BagFish
+  m_EditorClassIdentifier: 
+  fishName: Bag Fish
+  basePrice: 7
+  minPrice: 5
+  maxPrice: 10
+  rarity: 0
+  isRareVersion: 0
+  maxFishingPoints: 150
+  fishingPointsModifier: 15
+  startFishingPoints: 20
+  startPointsModifier: 10
+  catchDrainRate: 10
+  drainRateModifier: 3
+  qteFrequency: 10
+  rngQTE: 2
+  qteModifier: 1
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 30
+  baseSize: 6
+  sizeModifier: 1.5
+  baseDifficulty: 3
+  minDifficulty: 1
+  maxDifficulty: 5
+  modelPrefab: {fileID: 5534180906736766646, guid: 8ca5381050f214946985239e9571c092,
+    type: 3}
+  fishImage: {fileID: 21300000, guid: b80f3ad0d46f315409acc16ccb0ac8bb, type: 3}
+  pun: Do you ever feel... like a plastic bag?
+  location: Island

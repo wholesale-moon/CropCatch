@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9eae5178127349aa79a968c78474e, type: 3}
+  m_Name: BaseFish
+  m_EditorClassIdentifier: 
+  fishName: Base Fish
+  basePrice: 10
+  minPrice: 5
+  maxPrice: 20
+  rarity: 0
+  isRareVersion: 0
+  maxFishingPoints: 100
+  fishingPointsModifier: 50
+  startFishingPoints: 30
+  startPointsModifier: 20
+  catchDrainRate: 10
+  drainRateModifier: 5
+  qteFrequency: 6
+  rngQTE: 1
+  qteModifier: 2
+  qtePass: 20
+  qteFail: 6
+  qteDrain: 35
+  baseSize: 10
+  sizeModifier: 5
+  baseDifficulty: 5
+  minDifficulty: 1
+  maxDifficulty: 10
