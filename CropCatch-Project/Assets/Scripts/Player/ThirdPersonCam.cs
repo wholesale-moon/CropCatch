@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ThirdPersonCam : MonoBehaviour
 {
@@ -11,16 +12,12 @@ public class ThirdPersonCam : MonoBehaviour
     public Rigidbody rb;
     [SerializeField] private InputManager IM;
     [SerializeField] private GameSaveData _GameSaveData;
+    [SerializeField] private CinemachineFreeLook playerCam;
 
     private bool rotationDisabled = false;
-    [Range(0.2f,1.2f)] public float mouseSensitivity = 1f; // update this with slider, should go between 0.2 and 1.2 i believe
+    [Range(0.1f,1.2f)] public float mouseSensitivity = 1f;
     public float rotationSpeed;
     private Vector2 moveDir = Vector2.zero;
-
-    private void Awake()
-    {
-        //IM.MovementEvent += OnMovement;
-    }
 
     private void OnEnable()
     {
@@ -59,12 +56,15 @@ public class ThirdPersonCam : MonoBehaviour
         Vector3 inputDir = orientation.forward * moveDir.y + orientation.right * moveDir.x;
 
         if (inputDir != Vector3.zero)
+        {
             playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed * mouseSensitivity);
+        }
     }
 
     public void UpdateMouseSensitivity()
     {
         mouseSensitivity = _GameSaveData._mouseSensitivity;
+        playerCam.m_XAxis.m_MaxSpeed = mouseSensitivity * 1000;
     }
 
     private void OnMovement(Vector2 dir)

@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 slopeAdjustmentVec = SlopeAdjustment(camMoveDir);
         
-        rb.velocity = new Vector3(slopeAdjustmentVec.x * moveSpeed, -gravity, slopeAdjustmentVec.z * moveSpeed); // change the 0f to -2 if is not grounded
+        rb.linearVelocity = new Vector3(slopeAdjustmentVec.x * moveSpeed, -gravity, slopeAdjustmentVec.z * moveSpeed); // change the 0f to -2 if is not grounded
         //Debug.Log(rb.velocity);
         //Debug.Log(grounded);
 
